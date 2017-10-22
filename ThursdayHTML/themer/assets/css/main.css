@@ -40,6 +40,8 @@
 	body {
 		-webkit-text-size-adjust: none;
 	}
+	
+	#maintext{font-size: 30px}
 
 /* Box Model */
 
@@ -3875,6 +3877,7 @@
 		}
 
 /* Intro */
+
 
 	#intro {
 		background-attachment: fixed;
