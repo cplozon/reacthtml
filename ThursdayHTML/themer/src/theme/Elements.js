@@ -11,6 +11,7 @@ const pic2 = require('../../assets/images/pic02.jpg')
 const pic3 = require('../../assets/images/pic03.jpg')
 const pic4 = require('../../assets/images/pic04.jpg')
 const pic8 = require('../../assets/images/pic08.jpg')
+const pic9 = require('../../assets/images/pic09.jpg')
 
 
 export default (props) => {
@@ -21,13 +22,16 @@ export default (props) => {
 				<section id="intro" className="wrapper style1 fullscreen fade-up">
 					<div className="inner">
 						<h1>My Auto Medic</h1><br />
-						<p id="maintext">Your one resource for Do It Yourself car repairs and other diagnostic information. <br />
-						Supplying top rated how to videos, articles, step by step diagnosis, and your local mechanic information.</p><br />
+						<div id="mainlines"
+						<p>Your one resource for Do It Yourself car repairs and other diagnostic information. <br />
+						Supplying top rated how to videos, articles, step by step diagnosis, and your local mechanic information.</p></div><br />
 						<p>The Most Helpful YouTube Videos Based On Your Search</p><br />
+
 						<p>Top Articles From The Best DIY Mechanic Sites</p><br />
 						<p>Diagnostic Question And Answer For An Accurate Diagnosis</p><br />
 						<p>On-Board Diagnostic (OBD) Diagnostic Search</p><br />
-						<p>Local Mechanics In Your Area</p><br />
+						<div style="background: white"
+						<p>Local Mechanics In Your Area</p></div><br />
 						<ul className="actions">
 							<li><a href="#one" className="button scrolly">Find A Solution Now</a></li>
 						</ul>
@@ -38,7 +42,7 @@ export default (props) => {
 				<section id="one" className="wrapper style2 spotlights">
 					<Post title="Search Your Car Problem" image={pic8} text="Search Now For The Best Information Available" />
 					<Post title="My Auto Medic Diagnostic Tool" image={pic4} text="Use Our Unique Step By Step Diagnostic Tool" />
-					<Post title="Search Your ODM Code" image={pic3} text="Search ODM Code" />
+					<Post title="Search Your ODM Code" image={pic9} text="Search ODM Code" />
 					<Post title="Find The Best Local Mechanics In Your Area" image={pic3} text="Use Our Unique Step By Step Diagnostic Tool" />
 				</section>
 

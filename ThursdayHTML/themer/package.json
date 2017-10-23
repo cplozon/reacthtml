@@ -23,6 +23,7 @@
     "react-dom": "latest",
     "react-dropzone": "latest",
     "react-redux": "latest",
+    "react-router": "^4.2.0",
     "react-time": "latest",
     "redux": "latest",
     "redux-thunk": "latest",
